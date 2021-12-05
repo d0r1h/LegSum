@@ -1,2 +1,1 @@
-# LeTexSum
-Legal Documents Summarization
+
