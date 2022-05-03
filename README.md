@@ -19,10 +19,35 @@
     <p> Legal Document Summarization from classical approaches to State-of-the-art methods</p>
 </h4>
 
+<h3 align="center">
+    <img src="https://github.com/d0r1h/LegSum/blob/main/assets/legsum_app.png", width="550"></a>
+</h3>
 
 This repository accompanying the code for my master's thesis <b>LegSum: Legal Document Summarization</b>
 
 
+### Notebook:
+
+#### Abstractive Methods
+
+| Notebook | Colab | Model checkpoint |
+| ------ | ------ |  ------ | 
+| T5 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LegSum/blob/main/scripts/notebooks/T5_Small_%5Bbillsum%5D.ipynb) | [Frederick0291/t5-small-finetuned-billsum](https://huggingface.co/Frederick0291/t5-small-finetuned-billsum) |
+| BART billsum | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/BART_%5BBillsum%5D.ipynb) | [murali-admin/bart-billsum-1](https://huggingface.co/murali-admin/bart-billsum-1) |
+| BART xsum | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LegSum/blob/main/scripts/notebooks/BART_%5Bdistilbart_xsum%5D.ipynb) | [sshleifer/distilbart-xsum-12-6](https://huggingface.co/sshleifer/distilbart-xsum-12-6) |
+| Pegasus Legal | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/Pegsus_%5Blegal%5D.ipynb) | [nsi319/legal-pegasus](https://huggingface.co/nsi319/legal-pegasus) |
+| Pegasus billsum | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/Pegsus_%5Bbillsum%5D.ipynb) | [google/pegasus-billsum](https://huggingface.co/google/pegasus-billsum) |
+| BigBird | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/BigBird_Pegasus_%5Bbigpatent%5D.ipynb) | [google/bigbird-pegasus-large-bigpatent](https://huggingface.co/google/bigbird-pegasus-large-bigpatent) |
+| LED | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/LED_%5Blarge%5D.ipynb) | [allenai/led-large-16384-arxiv](https://huggingface.co/allenai/led-large-16384-arxiv) |
+
+#### Extractive Methods
+
+| Notebook | Colab |
+| ------ | ------ | 
+| Extractive | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/Extractive.ipynb) | 
+| Kmeans Bertsum | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/Kmeans_Bertsum.ipynb) | 
+| Luhn's algorithm | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/Luhn's_algorithm.ipynb) | 
+| TF-IDF | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/WordFrequency_%5BTf_IDf%5D.ipynb) | 
 
 
 ## Results 
