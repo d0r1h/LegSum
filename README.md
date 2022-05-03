@@ -51,14 +51,19 @@ This repository accompanying the code for my master's thesis <b>LegSum: Legal Do
 
 ### DataSet:
 
-
+1. **BillSum**
+    
+    - [Official github repository](https://github.com/FiscalNote/BillSum) [🤗 Dataset loader](https://huggingface.co/datasets/billsum)
+    - Processed and clean version of data can be found [here](https://github.com/d0r1h/LegSum/tree/main/Data)
 
 ### Results: 
 
-We ran both experiments (Extractive and Abstracive) on BillSum Dataset (ca_test) and results with pre-trained models are presented below.
+Following results are on BillSum Dataset (ca_test) with pre-trained models and extractive methods
+
 
 | Algorithm / model | Rouge-1 | Rouge-2 | Rouge-L|
 | ---- | ---- | ---- | ----|
+**Extractive**
 | KL			      |	 24.44 | 9.74	| 21.98 |
 | LSA 	              |	 30.85 | 12.45	| 27.64 |
 | SumBasics	      |	 31.01 | 12.61	| 27.83 |
@@ -67,6 +72,7 @@ We ran both experiments (Extractive and Abstracive) on BillSum Dataset (ca_test)
 | LexRank 	      |  36.83 | 18.98  | 32.95 |  
 | TextRank 	      |  36.57 | 19.10  | 32.35 |
 | Luhn’s Algorithm  |  37.48 | 19.93  | 33.35 |
+**Abstractive**
 | BART		      |	 26.02  | 11.87  | 22.02 |
 | Pegasus(small)   |  28.61  | 12.19  | 25.88 |
 | T5(small)             | 32.99   | 15.52  | 30.21 |
