@@ -49,8 +49,11 @@ This repository accompanying the code for my master's thesis <b>LegSum: Legal Do
 | Luhn's algorithm | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/Luhn's_algorithm.ipynb) | 
 | TF-IDF | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/LegSum/blob/main/scripts/notebooks/WordFrequency_%5BTf_IDf%5D.ipynb) | 
 
+### DataSet:
 
-## Results 
+
+
+### Results: 
 
 We ran both experiments (Extractive and Abstracive) on BillSum Dataset (ca_test) and results with pre-trained models are presented below.
 
